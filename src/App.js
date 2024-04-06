@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/dashboard">
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
         <Route path="/details/:id" element={<DetailsPage />}></Route>
