@@ -1,0 +1,38 @@
+.mapping-graph-content{
+     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    //  gap: 1rem;
+}
+
+.up-down-button{
+    display: none;
+    position: absolute;
+    
+}
+
+@media (max-width:1102px){
+     .up-down-button{
+        display:inline-block;
+        position: fixed;
+        color: green;
+        z-index: 10000;
+        right: 5rem;
+        top: 7rem;
+
+     }
+}
+
+
+@media (max-width:480px){
+    .up-down-button{
+       display:inline-block;
+       position: fixed;
+       color: green;
+       z-index: 10000;
+       right: 5rem;
+       top: 7rem;
+
+    }
+}

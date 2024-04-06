@@ -1,0 +1,32 @@
+@mixin pictureTag {
+  object-fit: "contain";
+  width: "100%";
+  height: "100%";
+  //pt={"2px"}
+  background-color: "white";
+}
+
+@mixin fontStyling($font_size, $padding_top, $padding_bottom) {
+  color: white;
+  font-weight: 200;
+  font-family: roboto;
+  font-size: $font_size;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding: $padding_top 1rem $padding_bottom 1rem;
+}
+
+@mixin buttonStyles() {
+  background-color: white;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+$darkBlue: #13262f;
+$mediumBlue: #1c3c4d;
+$lightBlue: #316274;
+$selectedBlue: #66c0e0;
+$white: #ffffff;
+$black: #000000;

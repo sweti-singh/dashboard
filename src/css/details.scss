@@ -1,0 +1,8 @@
+@import "./variables.scss";
+.details-page{
+    position: relative;
+    display: flex;
+    background-color: $darkBlue;
+    flex-grow: 1;
+}
+

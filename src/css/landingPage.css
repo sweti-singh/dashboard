@@ -1,0 +1,69 @@
+.background-vector-map {
+  position: absolute;
+  z-index: 0;
+}
+
+.landing-page {
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-right: 4rem;
+  z-index: 10;
+  position: relative;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.3);
+    opacity: 1;
+  }
+}
+.map-container {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: zoomIn 10s ease-in-out;
+  transform-origin: center;
+}
+
+.landing-page-flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: "center";
+  justify-content: flex-start;
+}
+
+.landing-page-flex-container h1 {
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
+.landing-page-flex-container button {
+  background-color: #66c0e0;
+  color: #000000;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: inline-flex;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (max-width: 328px) {
+  .landing-page-flex-container {
+    display: block;
+  }
+  .landing-page-flex-container button {
+    margin-top: 1rem;
+  }
+}/*# sourceMappingURL=landingPage.css.map */

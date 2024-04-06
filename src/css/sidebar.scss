@@ -1,0 +1,147 @@
+@import "./variables.scss";
+.sidebar {
+  background-color: $mediumBlue;
+  border: 1px solid transparent;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  height: inherit;
+  width: 350px;
+  position: relative;
+}
+
+.sidebar.inactive {
+  left: -100%;
+  transition: 1000ms;
+  width: 0;
+}
+
+.sidebar.active {
+  left: 0;
+  //width: 350px;
+  transition: 1000ms;
+}
+
+.icon {
+  padding: 2rem;
+}
+
+.button-icons-container {
+  padding-left: 2rem;
+  display: inline-flex;
+  gap: 0.7rem;
+}
+
+.button {
+  background-color: rgb(126, 118, 118);
+  border: none;
+  box-shadow: inset 0 0 10px rgb(53, 49, 72);
+  cursor: pointer;
+  height: 1rem;
+  width: 2rem;
+  border-radius: 0.3rem;
+  transition: transform 0.3s ease;
+}
+
+.button.clicked {
+  background-color: $selectedBlue;
+  transform: scale(1.2);
+}
+
+.heading {
+  color: $white;
+  font-weight: 200;
+  font-family: roboto;
+  font-size: 1.7rem;
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+
+.tabs {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: $white;
+}
+
+.tablist-container {
+  padding-left: 2rem;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.tabpanels {
+  background-color: transparent;
+  color: $white;
+  margin-top: 2rem;
+}
+
+.tabpanels-sections-global {
+  padding: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); // Greyish-black border at the bottom
+  box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.5); // Blurred black shadow at the bottom
+  cursor: pointer;
+}
+
+.tabpanels-sections-global.clicked {
+  background-color: #b9b2b2; /* Whitish-grey background */
+  border: 0.2rem solid #007bff; /* Thick blue border */
+}
+
+.tabpanels-sections {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  // justify-content: flex-start;
+  gap: 1rem;
+}
+
+.tabpanels-sections button {
+  @include buttonStyles();
+}
+
+.tabpanels-sections-global p {
+  margin-left: 2.5rem;
+}
+
+@media (max-width:1369px){
+    .heading {
+        font-size: 1.5rem;
+      }
+    .tabs {
+        font-size: 1rem;
+      }
+    .tabpanels-sections button{
+       font-size: 0.9rem;
+    }
+}
+
+@media (max-width:1250px){
+    .sidebar{
+        width: 300px;
+    }
+}
+
+@media (max-width:1102px){
+    .tabpanels-sections{
+        gap: 0.5rem;
+    }
+    .tabpanels-sections-global p {
+        margin-left: 2rem;
+      }
+      .tabs {
+        font-size: 0.9rem;
+      }
+
+      .sidebar{
+        width: 100%;
+        //height: auto;
+        position:absolute;
+      }
+     .up-down-button{
+        display: block;
+        position: absolute;
+     }
+}
+
