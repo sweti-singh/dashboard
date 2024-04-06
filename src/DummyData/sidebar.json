@@ -61,7 +61,7 @@
             "items":[
                 {
                     "id_items":"105",
-                    "button": ["F'CAST STAB","F'CAST ACC"],
+                    "button": ["F'CAST STAB1","F'CAST ACC1"],
                     "subHeading":"sample stack",
                     "Data 1": [20,40,100,29,300,98,388,123],
                     "Data 2": [21,300,400,19,300,98,388],
@@ -72,7 +72,7 @@
                 },
                 {
                     "id_items":"106",
-                    "button": ["F'CAST STAB","F'CAST ACC"],
+                    "button": ["F'CAST STAB1","F'CAST ACC1"],
                     "subHeading":"sample stack",
                     "Data 1": [20,40,100,29,300,98,388,123],
                     "Data 2": [21,300,400,19,300,98,388],
@@ -83,7 +83,7 @@
                 },
                 {
                     "id_items":"107",
-                    "button": ["F'CAST STAB","F'CAST ACC"],
+                    "button": ["F'CAST STAB1","F'CAST ACC2"],
                     "subHeading":"sample stack",
                     "Data 1": [20,40,100,29,300,98,388,123],
                     "Data 2": [21,300,400,19,300,98,388],
@@ -94,7 +94,7 @@
                 },
                 {
                     "id_items":"108",
-                    "button": ["F'CAST STAB","F'CAST ACC"],
+                    "button": ["F'CAST STAB3","F'CAST ACC5"],
                     "subHeading":"sample stack",
                     "Data 1": [20,40,100,29,300,98,388,123],
                     "Data 2": [21,300,400,19,300,98,388],
@@ -112,7 +112,7 @@
             "items":[
                 {
                     "id_items":"109",
-                    "button": ["F'CAST STAB","F'CAST ACC"],
+                    "button": ["F'CAST STAB6","F'CAST ACC6"],
                     "subHeading":"sample stack",
                     "Data 1": [20,40,100,29,300,98,388,123],
                     "Data 2": [21,300,400,19,300,98,388],
@@ -123,7 +123,7 @@
                 },
                 {
                     "id_items":"110",
-                    "button": ["F'CAST STAB","F'CAST ACC"],
+                    "button": ["F'CAST STAB6","F'CAST ACC6"],
                     "subHeading":"sample stack",
                     "Data 1": [20,40,100,29,300,98,388,123],
                     "Data 2": [21,300,400,19,300,98,388],
@@ -134,7 +134,7 @@
                 },
                 {
                     "id_items":"111",
-                    "button": ["F'CAST STAB","F'CAST ACC"],
+                    "button": ["F'CAST STAB6","F'CAST ACC6"],
                     "subHeading":"sample stack",
                     "Data 1": [20,40,100,29,300,98,388,123],
                     "Data 2": [21,300,400,19,300,98,388],
