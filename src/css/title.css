@@ -45,4 +45,9 @@
     margin-left: 1.6rem;
     height: 3rem;
   }
+}
+@media (max-width: 1099px) {
+  .page-layout {
+    height: 100vh;
+  }
 }/*# sourceMappingURL=title.css.map */

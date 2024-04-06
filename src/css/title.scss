@@ -49,3 +49,9 @@
       height: 3rem;
     }
 }
+
+@media (max-width:1099px){
+  .page-layout{
+    height: 100vh;
+  }
+}
