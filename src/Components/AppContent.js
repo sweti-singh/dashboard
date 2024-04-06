@@ -27,6 +27,7 @@ const AppContent = () => {
       </div>
     );
   };
+  console.log(widgetData,"12")
   return (
     <div className="app-content-flex1">
       {handleOpeningSidebar()}
@@ -48,7 +49,7 @@ const AppContent = () => {
         {widgetData.map((city) => {
           return(
             <>
-            {city.id == id[2] ? (
+            {city.id == id[3] ? (
             <div className="app-content-forecast-flex">
               <div className="app-content-stackid">
                 <p>FORECAST</p>

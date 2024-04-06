@@ -63,11 +63,24 @@ const Widgets = () => {
     },
   };
 
+  options.plugins = {
+    tooltip: {
+      callbacks: {
+        label: function (context) {
+          return `${context.raw}` || "";
+        },
+      },
+    },
+    legend: {
+      display: false,
+    },
+  };
+
   const findDataForChart = (id, constant) => {
     const cityData = data.find((city) => city.id === id);
     if (cityData) {
       return {
-        labels: ["1", "2", "3", "4"],
+        labels: ["Monday", "Tuesday", "Wed", "Thurs"],
         datasets: [
           {
             data:

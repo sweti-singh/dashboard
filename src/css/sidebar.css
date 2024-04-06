@@ -45,7 +45,7 @@
 }
 
 .heading {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 200;
   font-family: roboto;
   font-size: 1.7rem;
@@ -59,7 +59,7 @@
   font-size: 1.1rem;
   font-weight: 500;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .tablist-container {
@@ -70,7 +70,7 @@
 
 .tabpanels {
   background-color: transparent;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 2rem;
 }
 
